@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 a {
-    color: #fff;
+    color: #ffffff;
 }
 .container {
     width: 113.5rem;
@@ -120,11 +120,6 @@ main {
     border-radius: 0.8rem;
     margin-bottom: 8.8rem;
 }
-
-
-
-
-
 /* стили footer */
 .footer{
     background-color: #030102;
