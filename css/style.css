@@ -124,7 +124,8 @@ main {
 /* стили slider */
 
 .slider__inner {
-    width: 41.6rem;
+    max-width: 41.6rem;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -134,6 +135,7 @@ main {
     height: 10.5rem;
     border-radius: 0.8rem;
     overflow: hidden;
+    cursor: pointer;
 } 
 .main__slider-slide img {
     width: 100%;
@@ -218,4 +220,11 @@ main {
     font-size: 1.4rem;
     line-height: 143%;
 }
-
+@media (max-width: 576px) {
+    .slider__inner {
+        width: 14.4%;
+    }
+    .main__slider-arrow {
+        display: none;
+    }
+}
