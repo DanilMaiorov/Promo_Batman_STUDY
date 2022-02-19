@@ -12,7 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <script src="./script/swiper-bundle.js" defer></script>
-    <script src="./script/script.js" defer></script>
+    <script src="./script/swiper.js" defer></script>
+    <script src="./script/modal.js" defer></script>
+    <script src="./script/burger.js" defer></script>
+    <script src="./script/getData.js" defer></script>
     <title>Batman Промо</title>
 </head>
 <body>
@@ -60,7 +63,7 @@
                 <div class="main__rate-title">2022, боевик, триллер</div>
 
                 <div class="rate__item">
-                    <div class="rate__label">простой рейтинг</div>
+                    <div class="rate__label">Рейтинг CSS</div>
                     <div class="simple-rate"> 
                         <div class="simple-rate__items">
                             <input id="simple-rate__10" type="radio" class="simple-rate__item" name="simple-rate" value="10">
@@ -84,12 +87,11 @@
                             <input id="simple-rate__1" type="radio" class="simple-rate__item" name="simple-rate" value="1">
                             <label for="simple-rate__1" class="simple-rate__label"></label>
                         </div>
-                        <div class="main__rate-number">7/10</div>
+<!--                         <div class="rating__value">7/10</div> -->
                     </div>
                 </div>
-
                 <div class="rate__item">
-                    <div class="rate__label">точный рейтинг</div>
+                    <div class="rate__label">Рейтинг JS</div>
                     <div class="rating rating_set"> 
                         <div class="rating__body">
                             <div class="rating__active"></div>
@@ -110,7 +112,7 @@
                     </div>
                 </div>
                 <div class="rate__item">
-                    <div class="rate__label">точный рейтинг AJAX</div>
+                    <div class="rate__label">Рейтинг JS+AJAX</div>
                     <div data-ajax="true" class="rating rating_set"> 
                         <div class="rating__body">
                             <div class="rating__active"></div>
@@ -127,7 +129,7 @@
                                 <input type="radio" class="rating__item" name="rate" value="10">
                             </div>
                         </div>
-                        <div class="rating__value">5.6</div>
+                        <div class="rating__value">Кликни на звезды чтобы узнать рейтинг</div>
                     </div>
                 </div>
 

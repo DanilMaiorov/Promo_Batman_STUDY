@@ -100,16 +100,11 @@ main {
     font-size: 3rem;
 }
 .simple-rate::before{
-    content: '★★★★★★★★★★'     /* url(../img/noactive-star.svg)
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg) 
-    url(../img/noactive-star.svg)  */;
+    content: '★★★★★★★★★★';
     display: block;
+}
+.rate__item {
+    padding: 1rem 0;
 }
 .simple-rate__items {
     position: absolute;
