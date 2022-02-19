@@ -58,42 +58,80 @@
             </div>
             <div class="main__rate">
                 <div class="main__rate-title">2022, боевик, триллер</div>
-                <div class="main__rate-wrap">
-                    <div class="main__rate-stars">
-                        <!-- добавить скрипт по клику на кнопку добавление класса active -->
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
+
+                <div class="rate__item">
+                    <div class="rate__label">простой рейтинг</div>
+                    <div class="simple-rate"> 
+                        <div class="simple-rate__items">
+                            <input id="simple-rate__10" type="radio" class="simple-rate__item" name="simple-rate" value="10">
+                            <label for="simple-rate__10" class="simple-rate__label"></label>
+                            <input id="simple-rate__9" type="radio" class="simple-rate__item" name="simple-rate" value="9">
+                            <label for="simple-rate__9" class="simple-rate__label"></label>
+                            <input id="simple-rate__8" type="radio" class="simple-rate__item" name="simple-rate" value="8">
+                            <label for="simple-rate__8" class="simple-rate__label"></label>
+                            <input id="simple-rate__7" type="radio" class="simple-rate__item" name="simple-rate" value="7">
+                            <label for="simple-rate__7" class="simple-rate__label"></label>
+                            <input id="simple-rate__6" type="radio" class="simple-rate__item" name="simple-rate" value="6">
+                            <label for="simple-rate__6" class="simple-rate__label"></label>
+                            <input id="simple-rate__5" type="radio" class="simple-rate__item" name="simple-rate" value="8">
+                            <label for="simple-rate__5" class="simple-rate__label"></label>
+                            <input id="simple-rate__4" type="radio" class="simple-rate__item" name="simple-rate" value="4">
+                            <label for="simple-rate__4" class="simple-rate__label"></label>
+                            <input id="simple-rate__3" type="radio" class="simple-rate__item" name="simple-rate" value="3">
+                            <label for="simple-rate__3" class="simple-rate__label"></label>
+                            <input id="simple-rate__2" type="radio" class="simple-rate__item" name="simple-rate" value="2">
+                            <label for="simple-rate__2" class="simple-rate__label"></label>
+                            <input id="simple-rate__1" type="radio" class="simple-rate__item" name="simple-rate" value="1">
+                            <label for="simple-rate__1" class="simple-rate__label"></label>
                         </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/active-star.png" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/noactive-star.svg" alt="noactive-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/noactive-star.svg" alt="active-star-icon">
-                        </div>
-                        <div class="rate-star">
-                            <img src="./img/noactive-star.svg" alt="noactive-star-icon">
-                        </div>
+                        <div class="main__rate-number">7/10</div>
                     </div>
-                    <div class="main__rate-number">7/10</div>
                 </div>
+
+                <div class="rate__item">
+                    <div class="rate__label">точный рейтинг</div>
+                    <div class="rating rating_set"> 
+                        <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                                <input type="radio" class="rating__item" name="rate" value="1">
+                                <input type="radio" class="rating__item" name="rate" value="2">
+                                <input type="radio" class="rating__item" name="rate" value="3">
+                                <input type="radio" class="rating__item" name="rate" value="4">
+                                <input type="radio" class="rating__item" name="rate" value="5">
+                                <input type="radio" class="rating__item" name="rate" value="6">
+                                <input type="radio" class="rating__item" name="rate" value="7">
+                                <input type="radio" class="rating__item" name="rate" value="8">
+                                <input type="radio" class="rating__item" name="rate" value="9">
+                                <input type="radio" class="rating__item" name="rate" value="10">
+                            </div>
+                        </div>
+                        <div class="rating__value">6.6</div>
+                    </div>
+                </div>
+                <div class="rate__item">
+                    <div class="rate__label">точный рейтинг AJAX</div>
+                    <div data-ajax="true" class="rating rating_set"> 
+                        <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                                <input type="radio" class="rating__item" name="rate" value="1">
+                                <input type="radio" class="rating__item" name="rate" value="2">
+                                <input type="radio" class="rating__item" name="rate" value="3">
+                                <input type="radio" class="rating__item" name="rate" value="4">
+                                <input type="radio" class="rating__item" name="rate" value="5">
+                                <input type="radio" class="rating__item" name="rate" value="6">
+                                <input type="radio" class="rating__item" name="rate" value="7">
+                                <input type="radio" class="rating__item" name="rate" value="8">
+                                <input type="radio" class="rating__item" name="rate" value="9">
+                                <input type="radio" class="rating__item" name="rate" value="10">
+                            </div>
+                        </div>
+                        <div class="rating__value">5.6</div>
+                    </div>
+                </div>
+
+
             </div>
             <h1 class="main__header">Бэтмен</h1>
             <div class="main__description-wrap">
@@ -107,7 +145,7 @@
                 </div>
             </div>
 
-            <a class="main__button" href="#" >Купить билеты</a>
+            <a class="main__button" href="https://afisha.yandex.ru/yekaterinburg/cinema/betmen-2021?city=yekaterinburg&source=suggest&schedule-date=2022-03-02" target="_blank">Купить билеты</a>
             <div class="slider__inner">
                 <div class="main__slider swiper">
                     <div class="swiper-wrapper">
